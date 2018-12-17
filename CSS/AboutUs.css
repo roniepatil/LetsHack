@@ -3,6 +3,10 @@
     margin-top: 43px
     
 }
+.divider {
+    height: 20px;
+    background-color: #e6ebf7
+}
 
 .card-img-top {
     width: 200px;
@@ -27,4 +31,21 @@
     line-height: 1.44;
     margin-top: 1px;
     white-space: pre-wrap;
+}
+.Parallax{
+
+    background-image: url('../Images/hero.png');
+
+    height: 100%;
+
+    width:100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+.hero {
+    height: 100%;
+    width: 100%;
 }
