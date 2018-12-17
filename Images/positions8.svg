@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>insurance-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Desktop-HD" transform="translate(-596.000000, -2166.000000)" stroke="#14CBC4">
+            <g id="insurance-icon" transform="translate(596.000000, 2166.000000)">
+                <path d="M4.406175,13.40625 L4.406175,2.90625 C4.406175,1.66425 5.413425,0.65625 6.656175,0.65625 L15.656175,0.65625" id="Stroke-1"></path>
+                <path d="M7.031175,4.40625 L11.156175,4.40625" id="Stroke-3"></path>
+                <path d="M7.031175,6.65625 L11.156175,6.65625" id="Stroke-5"></path>
+                <path d="M7.031175,8.90625 L11.156175,8.90625" id="Stroke-7"></path>
+                <path d="M7.031175,11.15625 L11.156175,11.15625" id="Stroke-9"></path>
+                <path d="M11.906175,17.90625 L2.906175,17.90625 C1.663425,17.90625 0.656175,16.899 0.656175,15.65625 C0.656175,14.41425 1.663425,13.40625 2.906175,13.40625 L11.906175,13.40625 C10.663425,13.40625 9.656175,14.41425 9.656175,15.65625 C9.656175,16.899 10.663425,17.90625 11.906175,17.90625 C13.148175,17.90625 14.156175,16.899 14.156175,15.65625 L14.156175,2.53125 C14.156175,1.4955 14.994675,0.65625 16.031175,0.65625 C17.066175,0.65625 17.906175,1.4955 17.906175,2.90625 L14.156175,2.90625" id="Stroke-11"></path>
+            </g>
+        </g>
+    </g>
+</svg>
