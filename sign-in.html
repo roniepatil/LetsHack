@@ -15,172 +15,146 @@
     <!-- google web fonts -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> -->
     <!-- custom css -->
-    <link rel="stylesheet" href="CSS/signup.css">
+    <link rel="stylesheet" href="CSS/sign-in.css">
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
     <title>Build Apps with Javascript</title>
 </head>
+
 <body>
-        <div id="wrapper" class="page page-wrap page-home">
-                <div class="overlay" style="display: none;"></div>
-                <div id="page-content-wrapper">
-                  
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="https://d14jjfgstdxsoz.cloudfront.net/assets/logo-diff.svg" width="60" height="40" alt="Meteor Home Page">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" style="text-transform: uppercase;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Developers
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #ff6666;">
+                                <a class="dropdown-item" href="#">Install</a>
+                                <a class="dropdown-item" href="#">Tutorials</a>
+                                <a class="dropdown-item" href="#">Guide</a>
+                                <a class="dropdown-item" href="#">Documentation</a>
+                                <a class="dropdown-item" href="#">Forums</a>
+                                <a class="dropdown-item" href="#">Meetups</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="text-transform: uppercase; "href="#">Showcase</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" style="text-transform: uppercase;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Solutions
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #ff6666;">
+                                <a class="dropdown-item" href="#">Meteor Hosting</a>
+                                <a class="dropdown-item" href="#">Developer Support</a>
+                                <a class="dropdown-item" href="#">Pricing</a>
+                                <a class="dropdown-item" href="#">Official partners</a>
+                                <a class="dropdown-item" href="#">Submit rfp</a>
+                                <a class="dropdown-item" href="#">Become a partner</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"  style="text-transform: uppercase;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Company</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #ff6666;">
+                                <a class="dropdown-item" href="#">Blog</a>
+                                <a class="dropdown-item" href="#">Careers</a>
+                                <a class="dropdown-item" href="#">Culture</a>
+                                <a class="dropdown-item" href="#">Press</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="login">
+        
+                        <a href='#' style="color: grey;padding-right: 5px;" data-toggle="modal" data-target="#popUpWindow">Login</a>
+        
+                        <div class="modal fade" id="popUpWindow">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <!-- header -->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title" style="text-align: center;">Login</h4>
+                                    </div>
+                                    <!-- body -->
+                                    <div class="modal-header">
+                                        <form role="form">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Username/Email" />
+                                                <input type="password" class="form-control" placeholder="Password" />
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- footer -->
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn-custom btn-primary-meteor hvr-rectangle-out-bg">Login</button>
+                                    </div>
+                                    <div style="margin-left: 15px;">
+                                        <a href="" style="color: black;text-decoration: underline;">Forgot your password?</a>
+                                    </div>
+                                    <div style="margin-left: 15px;">
+                                        <a href="" style="color: black; text-decoration: underline;">Register</a>
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Register">
+        
+                        <a href="signup.html" style="text-decoration:none; color: grey;">Register</a>
+                    </div>
+                </div>
+            </nav>
+
+    
+    <div class="header-account">
+            <h3 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; color: black;">Sign in</h3><br>
+            <span class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Meteor Developer Account</span>
+
+    <div id="form-sign-in" class="form-account wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
+            <form>
+                <div class="Username">
+                        <input type="text" name="username" value="" placeholder="Username/Email">
+                </div>
+                <div class="password">
+                        <input type="password" name="password" value="" placeholder="Choose a Password">
+                </div>
               
-                
-                
-                
-                <div class="header-top-menu">
-                <div class="container-header wow fadeInUp checkMenu animated animated animated animated animated animated animated animated" style="visibility: visible; animation-name: all;">
-                  <div class="logo-company"><a href="/"><img src="https://d14jjfgstdxsoz.cloudfront.net/assets/logo-diff.svg" alt="Meteor Home Page"></a></div>
-                    <nav id="primary-menu">
-                <a id="developers" href="/developers" class="menu-main has-sub-menu" data-letters="Developers">
-                  <span>Developers</span>
-                  <ul class="sub-menu-secondary">
-                    <li><a class="menu-child" href="/install">Install</a></li>
-                    <li><a class="menu-child" href="/tutorials">Tutorials</a></li>
-                    <li><a class="menu-child" href="http://guide.meteor.com/">Guide</a></li>
-                    <li><a class="menu-child" href="http://docs.meteor.com/#/full/">Documentation</a></li>
-                    <li><a class="menu-child" href="https://forums.meteor.com/">Forums</a></li>
-                    <li><a class="menu-child" href="http://meteor.meetup.com/">Meetups</a></li>
-            
-                    <!-- <li><a class="menu-child" href="{{pathFor 'articles'}}">Articles</a></li> -->
-                    <!-- <li><a class="menu-child" href="{{pathFor 'speakerKit'}}">Speaker Kit</a></li> -->
-                  </ul>
-                </a>
-                <a id="showcase" href="/showcase" class="menu-main" data-letters="Showcase">
-                  <span>Showcase</span>
-                </a>
-                <a id="Solutions" href="/solutions" class="menu-main has-sub-menu" data-letters="Solutions">
-                  <span>Solutions</span>
-                  <ul class="sub-menu-secondary">
-                    <li><a class="menu-child" href="/hosting">Meteor Hosting</a></li>
-                    <li><a class="menu-child" href="/developer-support">Developer Support</a></li>
-                     <li><a class="menu-child" href="/pricing">Pricing</a></li>
-                    <li><a class="menu-child" href="/partners">Official Partners</a></li>
-                    <li><a class="menu-child" href="/submit-rfp">Submit RFP</a></li>
-                    <li><a class="menu-child" href="/become-a-partner">Become a Partner</a></li>
-            
-            
-                  </ul>
-                  </a>
-            
-                <a id="Company" href="https://www.meteor.io/" class="menu-main has-sub-menu" data-letters="Company">
-                  <span>Company</span>
-                  <ul class="sub-menu-secondary">
-                    <li><a class="menu-child" href="https://blog.meteor.com/">Blog</a></li>
-                    <li><a class="menu-child" href="https://www.meteor.io/jobs/">Careers</a></li>
-                    <li><a class="menu-child" href="https://www.meteor.io/culture/">Culture</a></li>
-                    <li><a class="menu-child" href="/press">Press</a></li>
-                  </ul>
-                </a>
-              </nav>
-                  <div class="secondary-nav">
-                    <nav>
-                      
-                        <a id="login" href="#" class="menu-secondary">Login</a>
-                        <a id="register" href="/sign-up" class="menu-secondary">Register</a>
-                      
-                    </nav>
-                    <div id="login-popup" class="hidden">
-                <div class="form-login">
-                  <h3>Login</h3>
-                  <form>
-                    <input type="text" name="username" placeholder="Username / Email">
-                    <input type="password" name="password" placeholder="Password">
-                    <span class="error-account"></span>
-                    <button type="submit" class="action-login btn-primary-meteor hvr-rectangle-out-bg">Login</button>
-                  </form>
-                  <div class="action-form-login">
-                    <a data-url="resetPassword" href="/reset-password"><i class="icon-icon-next-short"></i><span>Forgot your Password?</span></a>
-                    <a data-url="signUp" href="/sign-up"><i class="icon-icon-next-short"></i><span>Register</span></a>
-                  </div>
-                </div>
-              </div>
-                  </div>
-                  <div>
-                    <button type="button" class="icon-custom-menu animated fadeInLeft is-closed" data-toggle="offcanvas">
-                    <span class="icon-top"></span>
-                    <span class="icon-middle"></span>
-                    <span class="icon-bottom"></span>
-                    </button>
-                  </div>
-            
-                </div>
-              </div>
-            <nav class="navbar navbar-inverse" id="menu-Onmobile" role="navigation">
-                <div class="list-menu-mobile">
-                  <nav id="primary-menu">
-                <a id="developers" href="/developers" class="menu-main has-sub-menu" data-letters="Developers">
-                  <span>Developers</span>
-                  <ul class="sub-menu-secondary">
-                    <li><a class="menu-child" href="/install">Install</a></li>
-                    <li><a class="menu-child" href="/tutorials">Tutorials</a></li>
-                    <li><a class="menu-child" href="http://guide.meteor.com/">Guide</a></li>
-                    <li><a class="menu-child" href="http://docs.meteor.com/#/full/">Documentation</a></li>
-                    <li><a class="menu-child" href="https://forums.meteor.com/">Forums</a></li>
-                    <li><a class="menu-child" href="http://meteor.meetup.com/">Meetups</a></li>
-            
-                    <!-- <li><a class="menu-child" href="{{pathFor 'articles'}}">Articles</a></li> -->
-                    <!-- <li><a class="menu-child" href="{{pathFor 'speakerKit'}}">Speaker Kit</a></li> -->
-                  </ul>
-                </a>
-                <a id="showcase" href="/showcase" class="menu-main" data-letters="Showcase">
-                  <span>Showcase</span>
-                </a>
-                <a id="Solutions" href="/solutions" class="menu-main has-sub-menu" data-letters="Solutions">
-                  <span>Solutions</span>
-                  <ul class="sub-menu-secondary">
-                    <li><a class="menu-child" href="/hosting">Meteor Hosting</a></li>
-                    <li><a class="menu-child" href="/developer-support">Developer Support</a></li>
-                     <li><a class="menu-child" href="/pricing">Pricing</a></li>
-                    <li><a class="menu-child" href="/partners">Official Partners</a></li>
-                    <li><a class="menu-child" href="/submit-rfp">Submit RFP</a></li>
-                    <li><a class="menu-child" href="/become-a-partner">Become a Partner</a></li>
-            
-            
-                  </ul>
-                  </a>
-            
-                <a id="Company" href="https://www.meteor.io/" class="menu-main has-sub-menu" data-letters="Company">
-                  <span>Company</span>
-                  <ul class="sub-menu-secondary">
-                    <li><a class="menu-child" href="https://blog.meteor.com/">Blog</a></li>
-                    <li><a class="menu-child" href="https://www.meteor.io/jobs/">Careers</a></li>
-                    <li><a class="menu-child" href="https://www.meteor.io/culture/">Culture</a></li>
-                    <li><a class="menu-child" href="/press">Press</a></li>
-                  </ul>
-                </a>
-              </nav>
-                </div>
-                
-                  <a id="login-nav-mobile" href="/sign-in" class="menu-secondary mobile-menu">Login</a>
-                  <a id="register" href="/sign-up" class="menu-secondary mobile-menu">Register</a>
-                
-              </nav>
-                
-                <div class="menu-fixed"></div>
-              <div class="header-account-page">
-                <h3 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Sign In</h3>
-                <span class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Meteor Developer Account</span>
-              </div>
-              <div id="form-sign-in" class="form-account wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
-                  <h3></h3>
-                <form>
-                  <input type="text" name="username" value="" placeholder="Username / Email">
-                  <input type="password" name="password" value="" placeholder="Password">
-                  <span class="error-account"></span>
-                  <button type="submit" class="btn-custom btn-primary-meteor hvr-rectangle-out-bg">Login</button>
-                </form>
-                <div class="action-already-user">
-                  <span> Create account? </span>
-                  <a class="sign-in-action" href="/sign-up">Sign Up</a>
-                  <br><span> Trouble logging in? </span>
-                  <a class="sign-in-action" href="/reset-password">Reset Password</a>
-                </div>
-              </div>
               
-               
-                </div>
-              </div>
+              <button type="submit" class="btn-custom btn-primary-meteor hvr-rectangle-out-bg">Login</button>
+            </form>
+            <div class="action-new-user">
+              <span>  Create account?</span>
+              <a class="sign-in-action" href="signup.html">Sign Up</a>
+            </div>
+            <div class="logging-trouble">
+                    <span>  Trouble logging in?</span>
+                    <a class="sign-in-action" href="signup.html">Reset Password</a>
+                  </div>
+          </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
+
+</html>
