@@ -7,5 +7,12 @@ h2::first-letter {
     margin : 0px auto;
     float : none;
 }
-
-    
+.card-deck ul {
+    list-style: none;
+  }
+  
+ .card-deck ul li:before {
+    content:"\2713\0020";
+    text-decoration-color: blue;
+  }
+  

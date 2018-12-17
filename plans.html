@@ -9,8 +9,9 @@
     <!--Importing the bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+
     <!--Importing the custom CSS-->
-    <link rel="stylesheet" type="text/css" media="screen" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/styleplans.css" />
     <!--Importing the bootstrap javascript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -18,9 +19,57 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <div class="top1    ">Missed GraphQL Summit's announcements?
+        <!-- --> <a href="https://www.youtube.com/watch?v=IjJkAL4RWyQ">Watch the keynote</a></div>
+    <link rel="stylesheet" href="CSS/position.css">
 </head>
 
 <body>
+    <div class="container-fluid mb-1">
+        <div class="navbar p-3 mb-2 bg-primary text-white fixed">
+            <nav class="navbar ">
+                <a class="navbar-brand" href="#">
+                    <img src="" width="30" height="30" alt="">
+                </a>
+
+            </nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Why GraphQl</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " href="#">Platform</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " href="#">Plans</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " href="#">Docs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " href="#">Support</a>
+                </li>
+
+
+            </ul>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" href="#">Login</a>
+                </li>
+                <li class="nav-item btn1 mr-1">
+                    <a class="nav-link text-white " href="#">Contact Sales</a>
+                </li>
+                <li class="nav-item btn default p-0">
+                    <a class="nav-link text-white " href="#"> Get Started</a>
+                </li>
+
+            </ul>
+
+
+
+
+        </div>
+    </div>
     <div class="body">
         <section class="section plans__top  ">
             <div class="container fluid">
@@ -35,6 +84,9 @@
             <div class="container fluid">
                 <div class="card-deck">
                     <div class="card bg-light">
+                        <div class="card-header" style="background-color:lightgreen">
+                            <h5> </h5>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Community</h5>
                             <p class="card-text">Apollo's core open source plus a free-forever
@@ -51,7 +103,7 @@
                                         <span class="icon-check community"></span>
                                         <span>Schema registry and explorer</span>
                                     </li>
-                                    <li>
+                                    <li class="item-check">
                                         <span class="icon-check community"></span>
                                         <span>Community support</span>
                                     </li>
@@ -60,6 +112,9 @@
                         <a href="#" class="btn outline plan-card__button community text-center">GET STARTED</a>
                     </div>
                     <div class="card bg-light">
+                        <div class="card-header" style="background-color:lightskyblue">
+                            <h5> </h5>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Team</h5>
                             <p class="card-text">For teams that want insight and control over their GraphQL API. Up to
@@ -86,6 +141,9 @@
                         <a href="#" class="btn outline plan-card__button community">READ OUR DOCS</a>
                     </div>
                     <div class="card bg-light">
+                        <div class="card-header" style="background-color:violet">
+                            <h5> </h5>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Enterprise</h5>
                             <p class="card-text">For organizations with a mission-critical GraphQL API. Our complete
@@ -120,7 +178,7 @@
                 <h2 class="text-center">Compare plans</h2>
                 <!--Table1-->
                 <div class="table-responsive">
-                    <table class="table">
+                    <table class="table table-fixed-header">
                         <thead>
                             <tr class="d-flex">
                                 <th class="col-4"><strong>Overview</strong></th>

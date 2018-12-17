@@ -55,3 +55,46 @@ footer {
     border-top-right-radius: 54px;
     color: white;
 }
+
+.sectiontext1 {
+    color: rgb(116, 119, 144);
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 100%;
+    font-weight: 100%;
+    margin-top: 22px;
+    margin-top: 14px;
+    padding-left:-15vw;
+    padding-right: -15vw;
+    text-align: center;
+    position: relative;
+}
+
+.section-logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 11px
+}
+
+@media (max-width:576px) {
+    .section-logo {
+        padding: 0
+    }
+}
+
+.section-logo__img-wrap {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    min-width: 222px
+}
+
+@media (max-width:576px) {
+    .section-logo__img-wrap {
+        width: 50%;
+        min-width: 50%
+    }
+}

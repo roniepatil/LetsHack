@@ -1,6 +1,7 @@
 
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 .header-account h3 {
   font-size: 40px;
@@ -10,7 +11,7 @@ body {
   padding: 10px 35px 6px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  margin-top: 40px;
+  margin-top: 120px;
   border: 1px solid #1f2128;
   margin-left: 40%;
   
@@ -79,4 +80,33 @@ button {
 .action-already-user a {
   text-transform: uppercase;
   color: red;
+}
+.login {
+  float: right;
+}
+
+img {
+  background-color:#ff6666;
+  width: 155px;
+  min-height: 55px;
+  margin: 0;
+  padding: 0 15px;
+  border-bottom: 1px solid #ed7979;
+}
+.dropdown-item a {
+  color: white;
+  text-transform: uppercase;
+}
+.nav-link a {
+  text-transform: uppercase;
+}
+.dropdown-item {
+    color: white;
+    text-transform: uppercase;
+    font-family: AktivGrotesk-Medium;
+    font-family: ProximaNova-Semibold;
+    font-family: ProximaNova-Regular;
+}
+#navbarDropdown: hover  {
+    color: #ff6666;
 }
