@@ -98,3 +98,16 @@ footer {
         min-width: 50%
     }
 }
+
+.css-sec2div1 {
+    background-color: rgb(34, 10, 130);
+    color: white;
+}
+
+.css-sec2div2 {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/c40223b9b72880931089e499549fa52fc33e6a2c/cffca/static/team-bg-e97259f33b20892d2d1c42faeb37516c.png");
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    position: center;
+}
