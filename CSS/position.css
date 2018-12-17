@@ -1,6 +1,6 @@
 .top1{
 
-        padding-top: 7px
+        padding-top: 7px;
         padding-bottom: 8px;
         font-size: 14px;
         text-align: center;
@@ -32,4 +32,10 @@
     height:7vh; 
     position: center;
     margin-left:13vw;
+}
+.bg-primary1{
+    background-color:#333399;
+}
+.navbar{
+    
 }
