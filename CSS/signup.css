@@ -3,6 +3,7 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+/*signup form*/
 .header-account h3 {
   font-size: 40px;
   color: #1f2128;
@@ -82,6 +83,7 @@ button {
   text-transform: uppercase;
   color: red;
 }
+/*header styling*/
 .login {
   float: right;
 }
