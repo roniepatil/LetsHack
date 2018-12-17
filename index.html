@@ -7,14 +7,64 @@
     <title>our webpage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    
     <link rel="stylesheet" type="text/css" media="screen" href="/CSS/style.css" />
     <script src="/Js/main.js"></script>
 
 </head>
 
 <body>
+    <div class="container">
+    <nav class="navbar fixed-top navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">
+                        <img src="https://d14jjfgstdxsoz.cloudfront.net/assets/logo-diff.svg" alt="Meteor Home Page">
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">DEVELOPERS <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">INSTALL</a></li>
+                        <li><a href="#">TUTORIALS</a></li>
+                        <li><a href="#">GUIDE</a></li>
+                        <li><a href="#">DOCUMENTATION</a></li>
+                        <li><a href="#">FORUMS</a></li>
+                        <li><a href="#">MEETUPS</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">SHOWCASE</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="/solution.html">SOLUTIONS<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">METEOR HOSTING</a></li>
+                        <li><a href="#">DEVELOPER SUPPORT</a></li>
+                        <li><a href="#">PRICING</a></li>
+                        <li><a href="#">OFFICIAL PARTNER</a></li>
+                        <li><a href="#">SUBMIT RFP</a></li>
+                        <li><a href="#">BECOME A PARTNER</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">COMPANY<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="/Careers.html">CAREERS</a></li>
+                        <li><a href="#">CULTURE</a></li>
+                        <li><a href="#">PRESS</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="/sign-in.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+
     <div class="content-page">
         <div class="container-home">
             <div class="container">
@@ -33,7 +83,7 @@
             <div class="container">
                 <div class="opensource">
                     <h3>Meteor integrates with</h3>
-                    <nav>
+                    <ul>
                         <li class="react"></li>
                         <li class="vue"></li>
                         <li class="angular"></li>
@@ -41,7 +91,7 @@
                         <li class="graphql"></li>
                         <li class="npm"></li>
                         <li class="cordova"></li>
-                    </nav>
+                    </ul>
                 </div>
             </div>
             <hr>
@@ -90,13 +140,13 @@
             <div class="container">
                 <div class="opensource2">
                     <h3>COMPANIES USING METEOR</h3>
-                    <nav>
+                    <ul>
                         <li class="mazda"></li>
                         <li class="ikea"></li>
                         <li class="honeywell"></li>
                         <li class="qualcomm"></li>
                         <li class="pga"></li>
-                    </nav>
+                    </ul>
                 </div>
             </div>
             <hr>
@@ -147,6 +197,7 @@
 
             <div class="container">
                 <div class="stat">
+                    <h2>COMMUNITY</h2>
                     <div class="row">
                         <div class="col-lg-2">
                             <h3>13,723</h3>
@@ -157,17 +208,17 @@
                             <h3>226</h3>
                             <p><small class="text-muted">PROFESSIONAL SERVICE PROVIDERS</small></p>
                         </div>
-                        
+
                         <div class="col-lg-2">
                             <h3>28003</h3>
                             <p><small class="text-muted">STACK OVERFLOW QUESTIONS</small></p>
                         </div>
-                        
+
                         <div class="col-lg-2">
                             <h3>508K</h3>
                             <p><small class="text-muted">UNIQUE INSTALLS</small></p>
                         </div>
-                        
+
                         <div class="col-lg-2">
                             <h3>5</h3>
                             <p><small class="text-muted">UPCOMING EVENTS</small></p>
@@ -186,6 +237,7 @@
 
         </div>
 
+        <div class="container">
         <!-- Footer -->
         <footer class="page-footer font-small blue pt-4 foothead">
 
@@ -298,7 +350,7 @@
 
                         <ul class="list-unstyled">
                             <li>
-                                <a href="#!">Solutions</a>
+                                <a href="/solution.html">Solutions</a>
                             </li>
                             <li>
                                 <a href="#!">Meteor Hosting</a>
@@ -341,7 +393,7 @@
                                 <a href="#!">Blog</a>
                             </li>
                             <li>
-                                <a href="#!">Careers</a>
+                                <a href="/Careers.html">Careers</a>
                             </li>
                             <li>
                                 <a href="#!">Culture</a>
@@ -375,6 +427,7 @@
         <!-- Footer -->
 
 
+    </div>
     </div>
 
 

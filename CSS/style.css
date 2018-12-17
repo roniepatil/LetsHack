@@ -1,3 +1,16 @@
+/*start of navbar*/
+
+.navbar-brand img{
+    height:20px;
+    width: 100px;
+
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+/*end of navbar*/
 /*Start of Jumbotron*/
 .jumbotron{
     background: url('/Images/space.jpg');
@@ -38,10 +51,10 @@ p{
     margin-bottom: 40px;
     text-transform: uppercase;
 }
-.opensource nav{
+.opensource ul{
     text-align: center;
 }
-.opensource nav li{
+.opensource ul li{
     display: inline-block;
     width: 70px;
     height: 70px;
@@ -51,33 +64,33 @@ p{
     margin: 20px;
 }
 
-.opensource nav li.react{
+.opensource ul li.react{
     background: url(/Images/react.png);
     background-size: cover;
     background-position-x: -15px;
 }
-.opensource nav li.vue{
+.opensource ul li.vue{
     background: url(/Images/vue.png);
     background-size: cover;
 }
-.opensource nav li.angular{
+.opensource ul li.angular{
     background: url(/Images/angular.png);
     background-size: cover;
 }
-.opensource nav li.mongo{
+.opensource ul li.mongo{
     background: url(/Images/mongo.png);
     background-size: cover;
     background-position-x: -15px;
 }
-.opensource nav li.graphql{
+.opensource ul li.graphql{
     background: url(/Images/graphql.png);
     background-size: cover;
 }
-.opensource nav li.npm{
+.opensource ul li.npm{
     background: url(/Images/npm.png);
     background-size: cover;
 }
-.opensource nav li.cordova{
+.opensource ul li.cordova{
     background: url(/Images/cordova.png);
     background-size: cover;
 }
@@ -121,10 +134,10 @@ p{
     margin-bottom: 40px;
     text-transform: uppercase;
 }
-.opensource2 nav{
+.opensource2 ul{
     text-align: center;
 }
-.opensource2 nav li{
+.opensource2 ul li{
     display: inline-block;
     width: 75px;
     height: 80px;
@@ -134,27 +147,27 @@ p{
     margin: 20px;
 }
 
-.opensource2 nav li.mazda{
+.opensource2 ul li.mazda{
     background: url(/Images/icon-mazda.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.opensource2 nav li.ikea{
+.opensource2 ul li.ikea{
     background: url(/Images/icon-ikea.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.opensource2 nav li.honeywell{
+.opensource2 ul li.honeywell{
     background: url(/Images/icon-honeywell.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.opensource2 nav li.qualcomm{
+.opensource2 ul li.qualcomm{
     background: url(/Images/icon-qualco.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.opensource2 nav li.pga{
+.opensource2 ul li.pga{
     background: url(/Images/icon-tour.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -194,6 +207,14 @@ p{
 }
 .stat .row{
     padding-left: 150px;
+}
+.stat h2{
+    padding-top: 20px;
+    color: rgb(23, 167, 135);
+    margin-bottom: 5px;
+}
+.stat p{
+    color: aqua;
 }
 
 /*start of stats*/
