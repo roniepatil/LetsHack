@@ -3,6 +3,10 @@
     margin-top: 43px
     
 }
+.divider {
+    height: 20px;
+    background-color: #e6ebf7
+}
 
 .card-img-top {
     width: 200px;
@@ -28,3 +32,37 @@
     margin-top: 1px;
     white-space: pre-wrap;
 }
+.Parallax{
+
+    background-image: url('../Images/hero.png');
+
+    height: 100%;
+
+    width:100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+.hero {
+    height: 100%;
+    width: 100%;
+}
+
+.btn-default {
+
+    background-color: #e535ab;
+    border: 1px solid #e535ab;
+    margin-right: 1vw;
+    color: #fff;
+    border-radius:40px;
+ }
+ .btn-default1{
+ 
+ 
+    border: 1px solid #e535ab;
+    background-color: white;
+    color: #e535ab;
+    border-radius:40px;
+ }
