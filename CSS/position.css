@@ -1,6 +1,6 @@
 .top1{
 
-        padding-top: 7px;
+        padding-top: 7px
         padding-bottom: 8px;
         font-size: 14px;
         text-align: center;
@@ -11,13 +11,20 @@
         letter-spacing: 1.2px;
     
 }
-.navbar {
-    background-color: #290ba0;
-    margin: 0 auto;
-    padding: 0 20px;
-    width: 100%;
-    z-index: 990;
-    transition: color .25s ease-out;
-    position: sticky;
-    top: 0;
+.btn.default {
+
+    background-color: #e535ab;
+    border: 1px solid #e535ab;
+  
+    color: #fff;
+    border-radius:40px;
 }
+.btn1{
+  
+    
+    border: 1px solid white;
+  
+    color: #fff;
+    border-radius:40px;
+}
+
