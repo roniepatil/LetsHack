@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="19px" viewBox="0 0 16 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>meals-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Desktop-HD" transform="translate(-207.000000, -1936.000000)" stroke="#14CBC4">
+            <g id="meals-icon" transform="translate(207.000000, 1936.000000)">
+                <path d="M12.30615,2.53125 C11.85615,2.53125 11.43465,2.64375 11.06565,2.84325 C10.7094,1.58175 9.17715,0.65625 7.80315,0.65625 C6.42915,0.65625 4.87815,1.58175 4.5219,2.84325 C4.1529,2.64375 3.72915,2.53125 3.2829,2.53125 C1.8324,2.53125 0.6564,3.7065 0.6564,5.15625 C0.6564,6.606 1.7814,7.78125 3.2814,7.78125 L3.2814,17.859 L12.30315,17.859 L12.30315,7.78125 C13.80315,7.78125 14.92965,6.606 14.92965,5.15625 C14.92965,3.7065 13.75515,2.53125 12.30615,2.53125 Z" id="Stroke-1"></path>
+                <path d="M3.28125,14.859375 L12.303,14.859375" id="Stroke-3"></path>
+                <path d="M5.5386,11.859375 L5.5386,14.859375" id="Stroke-5"></path>
+                <path d="M7.78125,11.109375 L7.78125,14.859375" id="Stroke-7"></path>
+                <path d="M10.045875,11.859375 L10.045875,14.859375" id="Stroke-9"></path>
+            </g>
+        </g>
+    </g>
+</svg>

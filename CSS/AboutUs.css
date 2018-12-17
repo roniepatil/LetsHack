@@ -49,3 +49,20 @@
     height: 100%;
     width: 100%;
 }
+
+.btn-default {
+
+    background-color: #e535ab;
+    border: 1px solid #e535ab;
+    margin-right: 1vw;
+    color: #fff;
+    border-radius:40px;
+ }
+ .btn-default1{
+ 
+ 
+    border: 1px solid #e535ab;
+    background-color: white;
+    color: #e535ab;
+    border-radius:40px;
+ }

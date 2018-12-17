@@ -27,4 +27,9 @@
     color: #fff;
     border-radius:40px;
 }
-
+.img-fluid{
+    width:5vw;  
+    height:7vh; 
+    position: center;
+    margin-left:13vw;
+}
