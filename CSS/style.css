@@ -33,11 +33,151 @@ p{
 
 /*start of meteor integration*/
 
-.opensource{
+.opensource h3{
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.opensource nav{
+    text-align: center;
+}
+.opensource nav li{
     display: inline-block;
-    width: 100%;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+}
+
+.opensource nav li.react{
+    background: url(/Images/react.png);
+    background-size: cover;
+    background-position-x: -15px;
+}
+.opensource nav li.vue{
+    background: url(/Images/vue.png);
+    background-size: cover;
+}
+.opensource nav li.angular{
+    background: url(/Images/angular.png);
+    background-size: cover;
+}
+.opensource nav li.mongo{
+    background: url(/Images/mongo.png);
+    background-size: cover;
+    background-position-x: -15px;
+}
+.opensource nav li.graphql{
+    background: url(/Images/graphql.png);
+    background-size: cover;
+}
+.opensource nav li.npm{
+    background: url(/Images/npm.png);
+    background-size: cover;
+}
+.opensource nav li.cordova{
+    background: url(/Images/cordova.png);
+    background-size: cover;
 }
 
 
 
 /*end of meteor integration*/
+
+/*start of why meteor*/
+.whym h2{
+    text-transform: uppercase;
+    margin-top: 125px;
+}
+.col-lg-4{
+    width: 250px;
+    margin: 70px;
+}
+.card-body{
+    width: 250px;
+}
+.hey3 h3{
+    margin-top: 45px;
+
+}
+.hey3 img{
+    padding-left: 25px; 
+}
+.hey2 img{
+    padding-left: 15px; 
+}
+.card-title{
+    text-align: center;
+}
+/*end of why meteor*/
+
+
+/*start of companies using meteor*/
+
+.opensource2 h3{
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.opensource2 nav{
+    text-align: center;
+}
+.opensource2 nav li{
+    display: inline-block;
+    width: 75px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+}
+
+.opensource2 nav li.mazda{
+    background: url(/Images/icon-mazda.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.opensource2 nav li.ikea{
+    background: url(/Images/icon-ikea.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.opensource2 nav li.honeywell{
+    background: url(/Images/icon-honeywell.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.opensource2 nav li.qualcomm{
+    background: url(/Images/icon-qualco.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.opensource2 nav li.pga{
+    background: url(/Images/icon-tour.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/*end of companies using meteor*/
+
+
+/*start of commercial services*/
+.hello1{
+    text-align: center;
+}
+.hello2{
+    text-align: center;
+}
+.hello3{
+    text-align: center;
+}
+.hello3 .card-text{
+    margin-top: 40px;
+}
+.hello3 a{
+    margin-top: 15px;
+}
+/*start of commercial services*/
