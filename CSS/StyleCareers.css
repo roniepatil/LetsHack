@@ -1,0 +1,20 @@
+.logo {
+    margin-top: 2vh;
+    margin-right: 70vw;
+    margin-bottom: 2vh;
+}
+
+footer {
+    height: 45vh;
+    font-family: sans-serif;
+}
+
+.footerIcons img {
+    margin-right: 3%;
+    height: 4vh;
+    width: 3vw;
+}
+
+.list-unstyled > div {
+    margin-top: 5%;
+}
