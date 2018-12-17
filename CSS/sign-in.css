@@ -117,7 +117,36 @@ body {
       font-family: ProximaNova-Semibold;
       font-family: ProximaNova-Regular;
   }
-  #navbarDropdown: hover  {
-      color: #ff6666;
-  }
+  
+  /*Footer styling*/
+  .list-unstyled{
+    font-size:15px;
+    text-decoration: none;
+    color:#1f2128;
+    text-decoration-color: currentColor;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    display: inline-block;
+    font-family: ProximaNovaT-thin;
+}
+
+a{
+    color:#1f2128;
+}
+a:hover{
+    color:#de4f4f;
+    text-decoration: none;
+}
+
+     
+
+.des{
+    font-size: 10px;
+    display:inline-block;
+    color:#1f2128;
+    
+}
+.first img{
+    width:120px;
+}
   
