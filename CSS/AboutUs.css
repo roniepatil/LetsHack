@@ -1,6 +1,7 @@
 .card {
-    width: 293px;
-    margin-top: 43px
+    /* width: 293px; */
+    width: 6vw;
+    margin-top: 8vw;
     
 }
 .divider {
@@ -32,7 +33,7 @@
     margin-top: 1px;
     white-space: pre-wrap;
 }
-.Parallax{
+/* .Parallax{
 
     background-image: url('../Images/hero.png');
 
@@ -44,9 +45,9 @@
     background-position: center;
     background-size: contain;
 
-}
+} */
 .hero {
-    height: 100%;
+    height: 80%;
     width: 100%;
 }
 
@@ -65,4 +66,170 @@
     background-color: white;
     color: #e535ab;
     border-radius:40px;
- }
+    margin-right: 1vw;
+    border-image-width: initial;
+}
+/* Join Us part*/
+
+.join-us-part{
+    background-image: url('../Images/bottom_image.jpg');
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    /* height: 70%;
+    width: 100%; */
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    padding-top:64px;
+    padding-right: 0px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+
+   color: white;
+   font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+
+@media (min-width: 768px){
+.join-us-part {
+    background-size: 100% 100%;
+    }
+}
+
+.join-us-text{
+    max-width: 550px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    margin-top: 26px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.join-us-buttons {
+
+    display: block;
+}
+
+
+
+
+/* careers css */
+
+.logo {
+    margin-top: 2vh;
+    margin-right: 70vw;
+    margin-bottom: 2vh;
+}
+
+footer {
+    height: 45vh;
+    font-family: sans-serif;
+}
+
+.footerIcons img {
+    margin-right: 3%;
+    height: 4vh;
+    width: 3vw;
+}
+
+.list-unstyled > div {
+    margin-top: 5%;
+}
+
+.css-p5akwu {
+    background-image: url(https://d33wubrfki0l68.cloudfront.net/4b7c710808112b095898aaf79a150c8f5cf57e4d/cec5e/static/careers-hero-822bbd34486dd274e915003a9c0f28b3.png);
+    background-position-x: 50%;
+    background-position-y: 100%;
+    background-size: cover; 
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    text-size-adjust: 100%;
+    margin-top: -2%;
+    padding-bottom: 15%;
+    color: rgb(116, 119,144);
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}   
+
+.css-p5akwu {
+    padding-top: 120px;
+    text-align: center;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.herobtn {
+    background-color: rgb(229, 53, 171);
+    border-bottom-color: rgb(229, 53, 171);
+    border-bottom-left-radius: 54px;
+    border-bottom-right-radius: 54px;
+    border-bottom-style: solid;
+    border-top-left-radius: 54px;
+    border-top-right-radius: 54px;
+    color: white;
+}
+
+.sectiontext1 {
+    color: rgb(116, 119, 144);
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 100%;
+    font-weight: 100%;
+    margin-top: 22px;
+    margin-top: 14px;
+    padding-left:-15vw;
+    padding-right: -15vw;
+    text-align: center;
+    position: relative;
+}
+
+.section-logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 11px
+}
+
+@media (max-width:576px) {
+    .section-logo {
+        padding: 0
+    }
+}
+
+.section-logo__img-wrap {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    min-width: 222px
+}
+
+@media (max-width:576px) {
+    .section-logo__img-wrap {
+        width: 50%;
+        min-width: 50%
+    }
+}
+
+.css-sec2div1 {
+    background-color: rgb(34, 10, 130);
+    color: white;
+}
+
+.css-sec2div2 {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/c40223b9b72880931089e499549fa52fc33e6a2c/cffca/static/team-bg-e97259f33b20892d2d1c42faeb37516c.png");
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    position: center;
+}
